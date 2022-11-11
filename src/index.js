@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
-import { HelmetProvider } from 'react-helmet-async';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 
 ReactDOM.render(
   <HelmetProvider>
@@ -13,9 +13,8 @@ ReactDOM.render(
         <App />
       </React.StrictMode>
     </BrowserRouter>
-  </HelmetProvider>
-  ,
-  document.getElementById('root')
+  </HelmetProvider>,
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
