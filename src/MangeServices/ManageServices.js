@@ -11,11 +11,11 @@ const ManageServices = () => {
         method: "DELETE",
       })
         .then((res) => res.json())
-        .then((data) => console.log(data));
+        .then((data) => console.log(datag));
     }
   };
   return (
-    <div>
+    <div className="mx-auto w-50">
       <h2>Manage Your Services:</h2>
       {services.map((service) => (
         <div key={service._id}>
